@@ -1,0 +1,124 @@
+body{
+ background: rgb(126, 224, 13);
+ border: 2px blueviolet solid;
+ border-radius: 10px;
+width:100%;
+display: flow-root;}
+
+.container div h2{font-weight: bold;
+font-size: 15px;
+font-family: cursive;
+padding-left: 5px;
+background: red;
+border: 2px blueviolet solid;
+border-radius: 10px;
+margin: 2px;
+width: 90%;
+margin-top: 10px;
+}
+
+img{width: 50%;
+  border-radius: 10px;
+ 
+}
+#img1{
+  float: right;
+ 
+}
+#img2{
+  float: left;
+  
+}
+
+
+.header{
+background: rgba(165, 9, 9, 0.849);
+padding: 1px;
+
+}
+
+
+.section1 hgroup p{
+background: red;
+border: 2px blueviolet solid;
+border-radius: 10px;
+padding: 15px;
+font-family: cursive;
+width: 50%;
+float: left;
+margin-left: 4px;
+margin-top: 10px;
+}
+
+
+.bottom{
+text-align: center;
+font: bold blue verdana;
+clear: both;}
+
+aside{
+background: red;
+border: 2px blueviolet solid;
+border-radius: 10px;
+width: 35%;
+display: inline-block ;
+position: absolute;
+margin-left: 15px;
+margin-right: 5px;
+font-family: cursive;
+margin-top: 10px;
+}
+
+
+.tab {
+  overflow: hidden;
+  border: 2px solid blueviolet;
+  background-color: red;
+  border-radius: 10px;
+  width: 90.5%;
+  margin-bottom: 10px;
+  display: flex;
+  margin: 2px;
+}
+#drivers img{
+    width: 100px;
+
+}
+
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.5s;
+  font-size: 17px;
+  border: 2px solid blueviolet;
+  border-radius: 10px;
+  font-family: cursive;
+}
+
+
+.tab button:hover {
+  background-color: #ddd;
+}
+
+
+.tab button.active {
+  background-color: #ccc;
+}
+
+
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid blueviolet;
+  border-top: none;
+  background: red;
+  border-radius: 10px;
+  font-family:cursive;
+  width: 89%;
+}
+
+
