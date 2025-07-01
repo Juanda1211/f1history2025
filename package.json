@@ -1,0 +1,20 @@
+{
+  "name": "juntar-tabs-con-pagina-oficial",
+  "version": "1.0.0",
+  "main": "f1.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Juanda1211/f1history2025.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Juanda1211/f1history2025/issues"
+  },
+  "homepage": "https://github.com/Juanda1211/f1history2025#readme",
+  "description": ""
+}

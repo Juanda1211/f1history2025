@@ -28,8 +28,8 @@ img {
   border-radius: 10px;
   border: none;
   box-shadow: 0 4px 16px #000a;
-  margin-bottom: 20px;
-}
+  margin-bottom: 20px;}
+
 
 #img1, #img2, #img4 {
   border: 3px solid #fe1e01;
@@ -151,7 +151,7 @@ img {
 .tab button {
   background-color: transparent;
   color: #fff;
-  float: left;
+  float: right;
   border: none;
   outline: none;
   cursor: pointer;
@@ -273,10 +273,33 @@ aside.blockquote, aside .column, aside.column {
   transition: color 0.2s;
 }
 
+/* Estilos para el formulario de búsqueda */
+.search-form {
+  display: inline-block;
+  margin-left: auto;
+  float: right;
+}
+.search-form input[type="text"] {
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+.search-form button[type="submit"] {
+  padding: 5px 10px;
+  border-radius: 5px;
+  background: #0c3c90;
+  color: white;
+  border: none;
+  cursor: pointer;
+ 
+}
+.search-form button[type="submit"]:hover {
+  background: #c6363b;
+}
+
+
 @media (max-width: 900px) {
   .history-grid {
     grid-template-columns: 1fr;
   }
 }
-
-
